@@ -1,0 +1,39 @@
+{
+  "name": "trackiq-amazon-stockout-impact",
+  "title": "TrackIQ: Amazon Stockout Impact and Recovery",
+  "category": "inventory",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Measures what a completed Amazon stockout actually cost \u2014 lost units and revenue against the pre-stockout run rate, how far sessions and conversion fell, whether they have come back, and how long recovery is taking \u2014 then produces a staged plan for restarting ads and rebuilding rank. Use when the user asks what a stockout cost, lost sales from being out of stock, stockout impact, recovery after a ",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_inventory_snapshot",
+      "get_product_ads",
+      "get_product_performance",
+      "list_marketplaces"
+    ],
+    "filesystem": false,
+    "network": true,
+    "third_party_apis": [
+      "oxylabs"
+    ],
+    "third_party_note": "Requires an Oxylabs scraper connection; the public page is the only source for this data."
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-stockout-impact",
+  "license": "MIT"
+}
