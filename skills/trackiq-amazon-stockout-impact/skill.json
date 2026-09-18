@@ -4,7 +4,7 @@
   "category": "inventory",
   "version": "1.0.0",
   "updated": "2026-09-18",
-  "summary": "Measures what a completed Amazon stockout actually cost \u2014 lost units and revenue against the pre-stockout run rate, how far sessions and conversion fell, whether they have come back, and how long recovery is taking \u2014 then produces a staged plan for restarting ads and rebuilding rank. Use when the user asks what a stockout cost, lost sales from being out of stock, stockout impact, recovery after a ",
+  "summary": "Measures what a completed Amazon stockout actually cost \u2014 lost units and revenue against the pre-stockout run rate, how far sessions and conversion fell, whether they have come back, and how long recovery is taking \u2014 then produces a staged plan for restarting ads and rebuilding rank.",
   "changelog": "First public release.",
   "requires": {
     "mcp": [
