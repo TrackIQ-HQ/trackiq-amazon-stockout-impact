@@ -2,8 +2,8 @@
   "name": "trackiq-amazon-stockout-impact",
   "title": "TrackIQ: Amazon Stockout Impact and Recovery",
   "category": "inventory",
-  "version": "1.0.0",
-  "updated": "2026-09-18",
+  "version": "1.0.1",
+  "updated": "2026-10-06",
   "summary": "Measures what a completed Amazon stockout actually cost \u2014 lost units and revenue against the pre-stockout run rate, how far sessions and conversion fell, whether they have come back, and how long recovery is taking \u2014 then produces a staged plan for restarting ads and rebuilding rank.",
   "changelog": "First public release.",
   "requires": {
